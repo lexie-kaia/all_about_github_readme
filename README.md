@@ -1,8 +1,7 @@
 # All about Github Readme<br>(Markdown Syntax, Readme Templates)<br>깃허브 리드미를 위한 마크다운 문법과 리드미 템플릿
 
 > Tips, guides, cheatsheets and templates for Github README.md  
-> 깃허브 리드미를 위한 팁, 가이드, 치트시트 그리고 템플릿
-
+> 깃허브 리드미를 위한 팁과 가이드와 치트시트 그리고 템플릿 모음
 
 ### Table of Contents | 목차
 
@@ -50,33 +49,43 @@
     ##### <h5>
     ###### <h6>
   ```
+  
+  <br>
+  
 </details>
 
 <details>
   <summary><b>Emphasis | 강조</b></summary>
   
-  ####   
+  <br>
+     
   ```
     *italic* or _italic_
     **bold** or __bold__
     ~~strikethrough~~
     <u>underline</u>
   ```
-  ####   
+    
+  <br>
+     
 </details>
 <details>
   <summary><b>Line Breaks | 줄바꿈</b></summary>
   
-  ####   
+  <br>
+   
   - 2 or more spaces | 2번 이상 띄어쓰기
   - `<br />`
-  ####   
+    
+  <br>
+     
 </details>
 
 <details>
   <summary><b>Lists | 리스트</b></summary>
   
-  ####   
+  <br>
+  
   **Unordered**
   ```
     - item 1 -> -, +, * 사용 가능
@@ -95,46 +104,58 @@
   ```
     - [ ] todo
     - [X] completed
-  ```
-  ####   
+  ``` 
+    
+  <br>
+     
 </details>
 
 <details>
   <summary><b>Images | 이미지</b></summary>
   
-  ####   
+  <br>
+     
   ```
   ![alt text](url)
   
   ![GitHub Logo](/images/logo.png)
   ```
-  ####   
+  
+  <br>
+      
 </details>
 <details>
   <summary><b>Links | 링크</b></summary>
   
-  ####   
+  <br>
+      
   ```
   [text](url)
   
   [GitHub](http://github.com)
   ```
-  ####   
+  
+  <br>
+      
 </details>
 
 <details>
   <summary><b>Blockquotes | 인용</b></summary>
   
-  ####   
+  <br>
+     
   ```
   > Blockquotes
   ```
-  ####   
+  
+  <br>
+      
 </details>
 <details>
   <summary><b>Codes | 코드</b></summary>
   
-  ####   
+  <br>
+      
   **Inline | 인라인**
   ```
   `inline code` -> backticks
@@ -143,7 +164,9 @@
   <pre>```javascript
 console.log('hello world')
 ```</pre>
-  ####   
+  
+  <br>
+     
 </details>
 
 </details>
@@ -151,13 +174,16 @@ console.log('hello world')
 <details>
   <summary><b>Tables | 표</b></summary>
   
-  ####   
+  <br>
+     
   ```
   | head | head | head |
   | --- | :---: | ---: | -> 정렬 | left | center | right |
   | body | body | body |
   ```
-  ####   
+  
+  <br>
+      
 </details>
 
 <br>
@@ -180,25 +206,29 @@ console.log('hello world')
 - `## Header` → `(#header)` 헤더 링크는 제목을 특정 규칙에 따라 변형하여 만든다.
 - 하지만 `(#header)` 헤더 링크를 직접 작성하지 않아도 깃허브에서 쉽게 확인하여 복붙할 수 있다.
 - **하지만 목차 전체를 자동완성 해주는 도구가 있다. (vscode extension - Markdown All in One)**
+
 <br>
 
-1. `## Header` → `(#header)` 헤더 링크 작성 규칙
+1. `## Header` → `(#header)` 헤더 링크 작성 규칙  
     - 어떤 헤더든 `#` 1개만 사용
     - 영어 대문자 → 소문자로 변환
     - 띄어쓰기 → `-`로 대체
     - `.` `-` `_` 등 특수문자 무시
-    <br> 
     
-    예 : [Table of Contents | 목차](#table-of-contents--목차)
+    [Table of Contents | 목차](#table-of-contents--목차)
     ```
     [Table of Contents | 목차](#table-of-contents--목차)
     ```
-    <br>
+    
+<br>
+    
 2. github에서 `## Header` 헤더 별 `(#header)` 링크 확인하는 방법
-    - 헤더 앞 링크 버튼 클릭
-    - 주소창에서 `#`확인  
-    ![github link]()
-   <br>
+    - 헤더 앞 :link: 링크 버튼 클릭
+    - 주소창에서 `#` 뒷부분 복붙
+        - `https://github.com/lexie-kaia/all_about_github_readme#table-of-contents--목차`  
+    
+<br>
+   
 3. 목차 자동 완성 도구
     - vscode extension - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
     - ctrl+shift+p(Command Palette) -> 'Create Table of Contents' 입력
@@ -209,15 +239,14 @@ console.log('hello world')
 ### Toggles | 토글
 
 <details>
-    <summary>Click to expand!</summary>
-
-    Long content here
-    
+  <summary>Click to expand</summary>
+  
+  Long Content here
 </details>
 
 ```
 <details>
-    <summary>Click to expand!</summary>
+    <summary>Click to expand</summary>
 
     Long content here
 </details>
@@ -227,8 +256,7 @@ console.log('hello world')
 
 ### Footnotes | 주석
 
-Tag<sup id="a1">[1](#f1)</sup>
-
+Tag<sup id="a1">[1](#f1)</sup>  
 <sup id="f1">[[1]](#a1)</sup>Description 
 
 ```
@@ -237,8 +265,41 @@ Tag<sup id="a1">[1](#f1)</sup>
 <sup id="f1">[[1]](#a1)</sup>Description 
 ```
 
+<br>
 
 ### Badge | 뱃지
+
+- [Shields.io](https://shields.io/)을 이용하여 `![alt text](badge url)` 이미지 링크로 뱃지를 만들 수 있다.
+- 커스텀 뱃지 만드는 방법
+    ```
+    https://img.shields.io/badge/레이블-메세지-색상?style=스타일&logo=로고&logoColor=로고색상
+    ```
+    - 레이블, 메세지
+        - 띄어쓰기는 `_`(underscore)로 표시한다.
+    - 색상, 로고 색상
+        - hex(#제외하고 사용함), css named colors 등을 웹에서 사용가능한 대부분의 컬러 포맷을 지원한다
+    - 스타일
+        - plastic | flat | flat-sqaure | for-the-badge | social
+    - 로고
+        - [Simple Icons](https://simpleicons.org/)에 있는 로고를 사용할 수 있다.
+    - ![Github](https://img.shields.io/badge/-Github-181717?style=flat-square&logo=github&logoColor=white)
+        ```
+        ![Github](https://img.shields.io/badge/-Github-181717?style=flat-square&logo=github&logoColor=white)
+        ```
+- 자주 사용하는 뱃지
+
+| Badge | Markdown |
+| --- | --- |
+|![HTML5](https://img.shields.io/badge/-HTML5-e34f26?style=flat-square&logo=css3&logoColor=white)|`![HTML5](https://img.shields.io/badge/-HTML5-e34f26?style=flat-square&logo=css3&logoColor=white)`|
+|![CSS3](https://img.shields.io/badge/-CSS3-1572b6?style=flat-square&logo=css3&logoColor=white)|`![CSS3](https://img.shields.io/badge/-CSS3-1572b6?style=flat-square&logo=css3&logoColor=white)`|
+|![SASS](https://img.shields.io/badge/-SASS-cc6699?style=flat-square&logo=sass&logoColor=white)|`![SASS](https://img.shields.io/badge/-SASS-cc6699?style=flat-square&logo=sass&logoColor=white)`|
+|![POSTCSS](https://img.shields.io/badge/-POSTCSS-dd3a0a?style=flat-square&logo=postcss&logoColor=white)|`![POSTCSS](https://img.shields.io/badge/-POSTCSS-dd3a0a?style=flat-square&logo=postcss&logoColor=white)`|
+|![JAVASCRIPT](https://img.shields.io/badge/-JAVASCRIPT-ffa000?style=flat-square&logo=javascript&logoColor=white)|`![JAVASCRIPT](https://img.shields.io/badge/-JAVASCRIPT-ffa000?style=flat-square&logo=javascript&logoColor=white)`|
+|![TYPESCRIPT](https://img.shields.io/badge/-TYPESCRIPT-3178c6?style=flat-square&logo=typescript&logoColor=white)|`![TYPESCRIPT](https://img.shields.io/badge/-TYPESCRIPT-3178c6?style=flat-square&logo=typescript&logoColor=white)`|
+|![NODEJS](https://img.shields.io/badge/-NODEJS-339933?style=flat-square&logo=node.js&logoColor=white)|`![NODEJS](https://img.shields.io/badge/-NODEJS-339933?style=flat-square&logo=node.js&logoColor=white)`|
+|![REACT](https://img.shields.io/badge/-REACT-02b3e4?style=flat-square&logo=react&logoColor=white)|`![REACT](https://img.shields.io/badge/-REACT-02b3e4?style=flat-square&logo=react&logoColor=white)`|
+
+<br>
 
 ## Readme Templates
 
