@@ -1,28 +1,26 @@
-# All about Github Readme, 깃허브 리드미 그만 검색하자.
+# All about Github Readme | 깃허브 리드미 그만 검색하자
 
-Tips, guides, cheatsheets and templates for Github README.md   
-
-깃허브 리드미를 위한 팁과 가이드와 치트시트와 템플릿
+>Tips, guides, cheatsheets and templates for Github README.md   
+>깃허브 리드미를 위한 팁과 가이드와 치트시트와 템플릿 그러니까 모든 것
 
 ### Table of Contents
-1. [Markdown syntax for GMF, 깃허브맛 마크다운을 위한 문법](#markdown-syntax-for-gfm)
-  - [Markdown](#markdown)
-  - [Basic Syntax Cheatsheet](#basic-syntax-cheatsheet)
-  - [Advanced Usages](#advanced-usages)
-    - [TOC]()
-    - [Badges]()
-    - [Footnotes]()
-2. [Templates]()
-
+1. [Markdown syntax for GMF | 깃허브맛 마크다운](#markdown-syntax-for-gfm)
+    - [Markdown | 마크다운이란?](#markdown)
+    - [Basic Syntax Cheatsheet | 기본 문법](#basic-syntax-cheatsheet)
+2. [Advanced Usages of Markdown | 문서 꾸미기](#advanced-usages-of-markdown)
+    - [Table of Contents | 목차](#table-of-contents)
+    - [Toggle | 토글](#toggle)
+    - [Footnotes | 주석](#footnotes)
+    - [Badges | 뱃지](#badge)
+3. [Readme Templates | 리드미 템플릿]()
+    - [Personal side projects | 개인 프로젝트]()
+    - [Github guide for Open Source Projects | 오픈소스 프로젝트]()
+5. [References | 참고자료]()
 <br />
 
-## Markdown syntax for GFM
-
-<br />
+## Markdown syntax for GFM | 깃허브맛 마크다운
 
 > Markdown is a lightweight markup language for plain-text formatting
-
-<br />
 
 ### Markdown
 - Markdown은 웹에 텍스트 문서를 작성할 수 있도록 만들어진 규칙이다.  
@@ -34,8 +32,6 @@ Tips, guides, cheatsheets and templates for Github README.md
   - `README.md`와 같은 `.md` 확장자 파일
   - Issues 와 Pull requests
   - Gists
-
-<br />
 
 ### Basic Syntax Cheatsheet
 <details>
@@ -163,10 +159,13 @@ console.log('hello world')
 
 <br />
 
-### Advanced Usages
-- TOC (table of contents)
-- badge
-- footnotes
+## Advanced Usages of Markdown
+
+### Table of contents
+
+### Toggle
+### Footnotes
+### Badge
 
 ## Templates
 - Personal side projects
