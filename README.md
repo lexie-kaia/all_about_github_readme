@@ -3,12 +3,13 @@
 >Tips, guides, cheatsheets and templates for Github README.md   
 >깃허브 리드미를 위한 팁과 가이드와 치트시트와 템플릿 그러니까 모든 것
 
-### Table of Contents
+### Table of Contents | 목차
+
 1. [Markdown syntax for GMF | 깃허브맛 마크다운](#markdown-syntax-for-gfm--깃허브맛-마크다운)
     - [Markdown | 마크다운이란?](#markdown)
     - [Basic Syntax Cheatsheet | 기본 문법](#basic-syntax-cheatsheet)
 2. [Advanced Usages of Markdown | 문서 꾸미기](#advanced-usages-of-markdown)
-    - [Table of Contents | 목차](#table-of-contents)
+    - [Table of Contents () | 목차](#table-of-contents)
     - [Toggle | 토글](#toggle)
     - [Footnotes | 주석](#footnotes)
     - [Badges | 뱃지](#badge)
@@ -161,7 +162,7 @@ console.log('hello world')
 
 ## Advanced Usages of Markdown
 
-### Table of contents
+### Table of contents (TOC) | 목차
 
 ### Toggle
 ### Footnotes
