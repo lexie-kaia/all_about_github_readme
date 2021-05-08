@@ -1,2 +1,8 @@
-# all_about_github_readme
-tips, guide and template for github readme
+# All about Github Readme
+Tips, guides and templates for Github Readme
+
+- Markdown syntax
+- Badges
+- Templates
+  - Personal side projects
+  - Github guides
